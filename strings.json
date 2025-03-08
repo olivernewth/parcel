@@ -1,0 +1,34 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Parcel Package Tracking",
+        "description": "Set up Parcel Package Tracking to monitor your deliveries.",
+        "data": {
+          "api_key": "API Key from web.parcelapp.net",
+          "name": "Name for this integration",
+          "filter_mode": "Filter Mode (active or recent)",
+          "scan_interval": "Update interval in minutes (15-180)"
+        }
+      }
+    },
+    "error": {
+      "invalid_api_key": "Invalid API key. Please check your API key and try again."
+    },
+    "abort": {
+      "already_configured": "This Parcel account is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Parcel Package Tracking Options",
+        "description": "Update your Parcel configuration.",
+        "data": {
+          "filter_mode": "Filter Mode (active or recent)",
+          "scan_interval": "Update interval in minutes (15-180)"
+        }
+      }
+    }
+  }
+}

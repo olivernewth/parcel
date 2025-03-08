@@ -1,0 +1,12 @@
+{
+  "domain": "parcel",
+  "name": "Parcel Package Tracking",
+  "documentation": "https://github.com/yourusername/hass-parcel",
+  "issue_tracker": "https://github.com/yourusername/hass-parcel/issues",
+  "dependencies": [],
+  "config_flow": true,
+  "codeowners": ["@yourusername"],
+  "requirements": ["aiohttp>=3.8.0"],
+  "iot_class": "cloud_polling",
+  "version": "0.1.0"
+}
