@@ -1,0 +1,11 @@
+{
+  "name": "Parcel",
+  "content_in_root": false,
+  "domains": ["sensor"],
+  "country": "US",
+  "homeassistant": "2021.6.0",
+  "render_readme": true,
+  "zip_release": false,
+  "filename": "custom_components/parcel",
+  "iot_class": "cloud_polling"
+}

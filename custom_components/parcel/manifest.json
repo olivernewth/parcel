@@ -1,0 +1,10 @@
+{
+  "domain": "parcel",
+  "name": "Parcel",
+  "version": "1.0.0",
+  "documentation": "https://github.com/oliver/parcel",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["@oliver"],
+  "iot_class": "cloud_polling"
+}
